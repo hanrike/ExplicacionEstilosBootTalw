@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.boton{
+    @apply border-2 border-blue-900 p-4 bg-green-200 text-gray-800 hover:bg-pink-500 rounded-lg shadow-lg
+}
