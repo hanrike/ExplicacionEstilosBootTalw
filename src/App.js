@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
     </tr>
   </tbody>
 </table>
+<Card/>
     </div>
   );
 }
